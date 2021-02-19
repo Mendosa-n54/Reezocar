@@ -1,0 +1,128 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+        Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
+        sans-serif;
+    background-color: #E5E5E5;
+    color: #494949;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+/* ---------- HTML balises ---------- */
+ul {
+	padding: 0;
+	list-style: none;
+}
+li {
+	text-decoration: none;
+	list-style: none;
+}
+a {
+	/* text-decoration: none; */
+}
+
+
+/* ---------- Class properties ---------- */
+.center {
+	text-align: center;
+}
+.right {
+	text-align: right;
+}
+.left {
+	text-align: left;
+}
+.italic {
+	font-style: italic;
+}
+.bold {
+	font-weight: bold !important;
+}
+.underline {
+    text-decoration: underline;
+}
+.pointer {
+	cursor: pointer;
+}
+
+
+/* ---------- Class personalized ---------- */
+/* Voir material-ui-theme.config.js (typography) */
+.h1 {
+	
+}
+.h2 {
+	
+}
+.h3 {
+	
+}
+.h4 {
+	
+}
+.h5 {
+	
+}
+.h6 {
+	
+}
+.img {
+	width: 100%;
+}
+
+
+/* ---------- Colors ---------- */
+.colored-blue {
+	color: '#05668D!important';
+}
+.colored-green {
+	color: '#00C39A';
+}
+
+
+/* ---------- Structure ---------- */
+.flex {
+	display: flex;
+}
+.flex-1 {
+	flex: 1;
+}
+.flex-2 {
+	flex: 2;
+}
+.flex-3 {
+	flex: 3;
+}
+.flex-4 {
+	flex: 4;
+}
+.flex-5 {
+	flex: 5;
+}
+
+
+/* ---------- Mobile first ---------- */
+@media (max-width: 600px) {
+    .grid {
+        width: 100%;
+        flex-direction: column;
+    }
+}
+.structure-direction-row-xs {
+	@media screen and (min-width: $tiny) {
+		display: flex;
+		flex-direction: row;
+	}
+}
+.structure-direction-row-md {
+	@media screen and (min-width: $medium) {
+		display: flex;
+		flex-direction: row;
+	}
+}
